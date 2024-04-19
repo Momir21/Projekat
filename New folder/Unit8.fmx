@@ -1,0 +1,56 @@
+object Form8: TForm8
+  Left = 0
+  Top = 0
+  Caption = 'Form8'
+  ClientHeight = 672
+  ClientWidth = 919
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Transport: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 51.000000000000000000
+    Text = 'Transport'
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 192.000000000000000000
+    Position.Y = 51.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Mesto_utovara: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 96.000000000000000000
+    Text = 'Mesto_utovara'
+    TabOrder = 0
+  end
+  object Mesto_istovara: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 137.000000000000000000
+    Text = 'Mesto_istovara'
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 192.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 4
+    Position.X = 192.000000000000000000
+    Position.Y = 137.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+end
