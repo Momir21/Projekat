@@ -153,6 +153,11 @@
             <Form>Form8</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="Unit9.pas">
+            <Form>DataModule9</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
